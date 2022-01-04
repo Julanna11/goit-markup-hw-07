@@ -1,0 +1,50 @@
+/* Main first section */
+
+.business-decision {
+  text-align: center;
+  background: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.business-decision.overlay {
+  min-height: 600px;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.3)),
+    url('../images/header.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.business-decision__title {
+  margin-top: 0;
+  margin-bottom: var(--card-set-gap);
+  display: block;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.business-decision__button {
+  padding: 10px 32px 10px 32px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--button-bcg-color);
+  color: var(--button-text-color);
+  border-radius: 4px;
+  cursor: pointer;
+  border: transparent;
+  transition: color 250ms var(--animation-timing), background-color 250ms var(--animation-timing);
+}
